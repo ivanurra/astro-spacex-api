@@ -16,7 +16,24 @@ console.log("javascript <----");
     class="flex flex-col items-center justify-between w-full text-center md:flex-row"
   >
     <HeaderButton class="text-white" href="/">Newer</HeaderButton>
-    <HeaderButton class="text-white" href="/about">About</HeaderButton>
+    <HeaderButton class="text-white" href="/about">
+      <svg
+        slot="before"
+        width="56"
+        height="56"
+        viewBox="0 0 24 24"
+        stroke-width="2"
+        stroke="#ffffff"
+        fill="none"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0"></path>
+        <path d="M12 9h.01"></path>
+        <path d="M11 12h1v4h1"></path>
+      </svg>About
+    </HeaderButton>
     <HeaderButton class="text-white" href="/oldest">Older</HeaderButton>
   </nav>
 </header>
